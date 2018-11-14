@@ -32,3 +32,65 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.team-member p {
+    color: white;
+    font-weight: bold;
+}
+
+.team-member h4 {
+  color: #FEC810;
+  font-weight: bold;
+}
+
+#team {
+  background-image: url(../img/call-to-action-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 80%;
+  background-attachment: scroll;
+}
+
+
+@media screen and (max-width: 992px){
+  #feature {
+    text-align: center;
+    background: url("");
+    background-position: 50% 94px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 10px 0;
+  }
+  #team {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 80%;
+    background-attachment: scroll;
+  }
+  .team-member p {
+    color: black;
+    font-weight: normal;
+  }
+  .team-member h4 {
+    color: black;
+    font-weight: normal;
+}
+
+
+}
